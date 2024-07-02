@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather.io</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="shortcut icon" href="assets/compass.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="alert">
+      <h1>Please type a city name <img src="assets/compass.svg" alt=""></h1>
+    </div>
+
+
+    <main class="weather-app">
+
+        <section class="container">
+          <h3 class="brand">Weather. <span>io</span><img src="assets/113.svg" alt=""></h3>
+          <section>
+            <h1 class="temp">16&#176;</h1>
+              <section class="city-time">
+                <h1 class="name">Manila</h1>
+                <small>
+                  <span class="time">06:09</span>
+                  -
+                  <span class="date">
+                    Monday July 07
+                  </span>
+                </small>
+              </section>
+              <section class="weather">
+                <img src="assets/119.svg" class="icon" width="50" height="50">
+                <span class="condition">Cloudy</span>
+              </section>
+          </section>
+        </section>
+
+      <section class="panel">
+        <form id="locationInput">
+          <input type="text" class="search" placeholder="Search Location...">
+          <button type="submit" class="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <ul class="cities">
+          <li class="city">New York</li>
+          <li class="city">California</li>
+          <li class="city">Tokyo</li>
+          <li class="city">Paris</li>
+        </ul>
+
+        <ul class="details">
+          <h4>Weather Details</h4>
+          <li>
+            <span>Cloudy</span>
+            <span class="cloud">89%</span>
+          </li>
+          <li>
+            <span>Humidity</span>
+            <span class="humidity">64%</span>
+          </li>
+          <li>
+            <span>
+              Wind
+            </span>
+            <span class="wind">8km/h</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  <script type="module" src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+</head>
+</body>
+</html>
