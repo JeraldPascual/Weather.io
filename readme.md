@@ -83,6 +83,6 @@ For any inquiries or feedback, feel free to contact me:
 
 
 ## Acknowledgments
-WeatherAPI: For providing real-time weather data.
-GSAP: For smooth and powerful JavaScript animations.
-Youtube: QuickCodingTuts for open-source tutorial.
+ -  WeatherAPI: For providing real-time weather data. 
+ -  GSAP: For smooth and powerful JavaScript animations.
+ -  Youtube: QuickCodingTuts for open-source tutorial.
